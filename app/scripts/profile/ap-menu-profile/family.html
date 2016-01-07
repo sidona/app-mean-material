@@ -1,0 +1,21 @@
+<div ng-controller="FamilyCtrl">
+
+  <md-content layout-padding>
+    <form name="userFamily">
+      <div layout layout-sm="column">
+        <md-input-container flex>
+          <label>new family member</label>
+          <div ng-repeat="userFamily in family">{{userFamily.memberFamily}}</div>
+          <input ng-model="userFamily.memberFamily">
+        </md-input-container>
+      </div>
+      <div layout layout-sm="column">
+        <md-input-container flex>
+          <label>relationship</label>
+          <input ng-model="userRelationShip.name">
+        </md-input-container>
+      </div>
+    </form>
+  </md-content>
+</div>
+

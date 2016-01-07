@@ -1,0 +1,114 @@
+<div ng-controller="StudyCtrl" class="study-container">
+  <md-content layout-padding>
+    <div class="show-work">
+      <div layout layout-sm="column">
+        <a ng-click="showAddWork=!showAddWork">add work</a>
+        <br/>
+      </div>
+      <div ng-show="showAddWork" class="add-work">
+          <form name="addWork" style="background-color: rgba(234, 234, 234, 0.71)">
+            <md-input-container class="md-block" id="container-study">
+              <label>Company</label>
+              <input ng-model="work.company">
+            </md-input-container>
+            <md-input-container class="md-block"  id="container-study1">
+              <label>Position</label>
+              <input ng-model="work.position">
+            </md-input-container>
+            <md-input-container class="md-block"  id="container-study2">
+              <label>City/Town</label>
+              <input ng-model="work.city">
+            </md-input-container>
+            <md-input-container class="md-block"  id="container-study3">
+              <label>Description</label>
+              <input ng-model="work.description">
+            </md-input-container>
+            <div class="button-study">
+            <md-button class="md-raised md-primary">Save Changes</md-button>
+            <md-button class="md-raised">Cancel</md-button>
+            </div>
+          </form>
+          </div>
+    </div>
+  </md-content>
+
+  <md-content layout-padding>
+    <div class="show-professional-skills">
+      <div layout layout-sm="column">
+        <a ng-click="showAddProfessional=!showAddProfessional">add professional skills</a>
+      </div>
+      <div ng-show="showAddProfessional">
+        <form name="addProfessionalSkills" style="background-color: rgba(234, 234, 234, 0.71)">
+          <label>Professional Skills</label>
+          <input type="text" ng-model="professional.skills"><br/>
+          <div class="button-professional">
+          <md-button class="md-raised md-primary">Save Changes</md-button>
+          <md-button class="md-raised">Cancel</md-button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </md-content>
+
+
+  <md-content layout-padding>
+    <div class="show-college">
+      <div layout layout-sm="column">
+        <a ng-click="showAddCollege=!showAddCollege">add college</a>
+        <br/>
+      </div>
+      <div ng-show="showAddCollege" class="add-work">
+        <form name="addCollege" style="background-color: rgba(234, 234, 234, 0.71)">
+          <md-input-container class="md-block" id="container-study4">
+            <label>School</label>
+            <input ng-model="college.school">
+          </md-input-container>
+          <md-input-container class="md-block" id="container-study5">
+            <label>Time Period</label>
+            <input ng-model="college.time">
+          </md-input-container>
+          <md-input-container class="md-block" id="container-study6">
+            <label>Description</label>
+            <input ng-model="college.description">
+          </md-input-container>
+          <div class="button-college">
+          <md-button class="md-raised md-primary">Save Changes</md-button>
+          <md-button class="md-raised">Cancel</md-button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </md-content>
+
+  <md-content layout-padding>
+    <div class="show-highSchool">
+      <div layout layout-sm="column">
+        <a ng-click="showAddHighSchool=!showAddHighSchool">add college</a>
+        <br/>
+      </div>
+      <div ng-show="showAddHighSchool">
+        <form name="addCollege" style="background-color: rgba(234, 234, 234, 0.71)">
+          <md-input-container class="md-block" id="container-study7">
+            <label>School</label>
+            <input ng-model="highSchool.school">
+          </md-input-container>
+          <md-input-container class="md-block" id="container-study8">
+            <label>Time Period</label>
+            <input ng-model="highSchool.time">
+          </md-input-container>
+          <md-input-container class="md-block" id="container-study9">
+            <label>Description</label>
+            <input ng-model="highSchool.description">
+          </md-input-container>
+          <div class="button-HighSchool">
+          <md-button class="md-raised md-primary">Save Changes</md-button>
+          <md-button class="md-raised">Cancel</md-button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </md-content>
+
+
+</div>
+

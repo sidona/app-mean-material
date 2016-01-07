@@ -1,0 +1,15 @@
+<div ng-controller="appsCtrl">
+ <md-content class="apps-content">
+   <md-list style=" border-bottom: 1px solid #d1d1d1">
+     <h3 style="line-height: 20px;
+    min-height: 20px;
+    padding-bottom: 2px;
+    vertical-align: bottom;color: #1e2d4c;
+    font-size: 16px;margin-left: 16px;"><strong>Apps</strong></h3>
+     <md-list-item ng-repeat="app in apps" class="apps-content-item"  style=" border-top: 1px solid #d1d1d1;padding-top: 4px">
+       <img ng-src="{{app.image}}">
+       <a ui-sref="appsDetail({id:app._id})" class="link-apps">{{app.name}}</a>
+     </md-list-item>
+   </md-list>
+ </md-content>
+</div>

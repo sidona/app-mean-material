@@ -1,0 +1,23 @@
+<div ng-controller="apMenuCtrl">
+  <div class="header">
+  <md-content class="main-content">
+    <md-list>
+      <p style="margin-left: 16px"><a ui-sref="profile">Edit Profile</a></p>
+      <p style="margin-left: 16px;
+    padding-top: 20px;
+    color: #9197a3;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased">FAVORITES</p>
+      <a ui-sref="events" style="margin-left: 16px">Events</a><br/>
+      <a ui-sref="apps" style="margin-left: 16px; padding-top: 20px; color: #9197a3;font-size: 11px;
+    -webkit-font-smoothing: antialiased;">APPS</a>
+      <md-list-item ng-repeat="app in apps" class="list-apps">
+        <img ng-src="{{app.image}}">
+        <a ui-sref="appsDetail({id:app._id})" style="padding-left: 3px;white-space: nowrap;line-height: 24px;color:black; font-family: helvetica">{{app.name}}</a>
+      </md-list-item>
+    </md-list>
+
+  </md-content>
+
+</div>
+</div>

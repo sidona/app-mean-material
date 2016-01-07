@@ -1,0 +1,164 @@
+
+.ap-menu-area {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #18080a;
+}
+.fa-2x {
+  font-size: 2em;
+  padding-left: 70px;
+}
+
+.ap-menu-area-vertical {
+  float: left;
+  width: 200px;
+  /*min-height: 100vh;*/
+
+}
+.ap-menu-area ul {
+  padding-left: 0;
+}
+
+.ap-menu-area .btn:hover {
+  color: #f5f5f5;
+}
+
+md-sidenav.md-locked-open {
+  width: 242px;
+  min-width: 2px;
+  max-width: 304px;
+  height: 710px;
+}
+
+.ap-menu md-list{
+  display: inline-block;
+  width: 90%;
+  padding-left: 16px;
+}
+
+.ap-selectable-item:hover {
+  background-color: #555;
+}
+
+.ap-menu-icon {
+  margin-right: 10px;
+}
+
+.ap-menu-active-indicator {
+  float: right;
+  color: #ddd;
+  margin-right: 0;
+  margin-top: 8px;
+}
+
+.ap-noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.ap-group-indicator-left {
+  float: right;
+  color: #ddd;
+  margin-right: 2px;
+  margin-top: 15px;
+}
+
+.ap-subitem-section {
+  padding-left: 16px;
+}
+
+.ap-menu-layout-button {
+  margin: 12px;
+  padding: 2px 8px;
+  color: #bbb;
+  background-color: #333;
+  border: 1px solid #999;
+}
+
+.ap-layout-button-horizontal {
+  position: absolute;
+  top: -6px;
+  right: 10px;
+}
+
+.ap-item-horizontal {
+  display: inline-block;
+  width: 165px !important;
+  margin-left: 20px;
+  margin-top: 10px;
+  line-height: 1.5em !important;
+}
+
+.ap-popup-menu {
+  position: absolute;
+  z-index: 1000;
+  background-color: #333;
+  width: 200px;
+  padding-left: 0;
+}
+
+.ap-fade-in-animation {
+  -moz-transition: linear all 0.5s;
+  -o-transition: linear all 0.5s;
+  -webkit-transition: linear all 0.5s;
+  transition: linear all 0.5s;
+}
+.ap-fade-in-animation.ng-hide {
+  opacity: 0;
+}
+
+#container-study{
+height:45px;
+}
+#container-study1{
+  height:45px;
+}
+#container-study2{
+  height:45px;
+}
+#container-study3{
+  height:45px;
+}
+#container-study4{
+  height:45px;
+}
+#container-study5{
+  height:45px;
+}
+#container-study6{
+  height:45px;
+}
+#container-study7{
+  height:45px;
+}
+#container-study8{
+  height:45px;
+}
+#container-study9{
+  height:45px;
+}
+.button-study{
+  padding-top: 20px;
+}
+#buttonStudy{
+  width: 30px;
+}
+.button-HighSchool{
+  padding-top: 20px
+}
+.button-college{
+  padding-top: 20px
+}
+.button-professional{
+  padding-top: 20px
+}
+.study-container{
+  font-family: helvetica;
+}
+.md-inline-form .layout-row{
+  margin-top: 0px;
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/scripts/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/homepage/ap-chat/users.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/homepage/ap-post/post.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/homepage/ap-post/postDirective.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/profile/ap-container-profile/ap-container.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/profile/ap-container-profile/ap-container.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/profile/ap-container-profile/ap-containerCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/profile/ap-menu-profile/ap-menu-item.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/profile/ap-menu-profile/ap-menu-itemDirective.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/profile/ap-menu-profile/ap-profile.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/profile/ap-menu-profile/ap-profileMenuCtrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/profile/ap-menu-profile/ap-profileMenuTemplate.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/main.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/dashboard.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/myProfile.html" charset="UTF-8" />
+  </component>
+</project>

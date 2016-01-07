@@ -1,0 +1,20 @@
+<div class="dashboard-header">
+  {{title}}
+  <div class="dashboard-controls">
+    <div layout="column" layout-align="left left">
+      <md-select ng-model="widget" ng-click="addNewWidget(widget)" role="menu" style="min-width:200px;margin-left:40px" aria-expanded="true">
+        <md-option ng-value="widget" ng-repeat="widget in widgetDefinitions" role="menuitem">
+          {{widget.title}}
+        </md-option>
+        </md-select>
+    </div>
+  </div>
+</div>
+<div gridster="gridsterOpts">
+
+    <md-list gridster-item="item" ng-repeat="item in widgets">
+      <widget-body></widget-body>
+    </md-list>
+
+</div>
+

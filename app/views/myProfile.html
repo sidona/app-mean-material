@@ -1,0 +1,25 @@
+<div ng-controller="MyProfileCtrl" style="width: 851px;height: 246px">
+
+  <div class="photoProfile" style="background-color: black;margin-top: 40px;">
+    <div class="header">
+
+    </div>
+    <div class="content">
+      <div class="imageProfileT">
+        <img ng-src="images/imgP.jpg" style="width: 170px;height: 165px;border:3.5px solid white;margin-left: 18px;border-radius: 2px;z-index: 2;
+    margin-bottom: -20px;">
+      </div>
+    </div>
+    <div class="footer">
+      <a ui-sref="profile" style="width: 98px;width: 44px;padding-top: 10px"><span style="margin-left: 201px;border-left: 1px solid grey;padding-right: 18px;padding-left: 18px">Timeline</span></a>
+      <a ui-sref="profile.about"><span style="padding-left: 18px;padding-right: 18px">About</span></a>
+      <a ui-sref="profile.friends"><span style="padding-left: 18px;padding-right: 18px">Friends</span></a>
+      <a ui-sref="profile"> <span style="padding-left: 18px;padding-right: 18px">Photos</span></a>
+      <a ui-sref="profile"><span style="padding-left: 18px;padding-right: 18px">More</span></a>
+    </div>
+  </div>
+
+  <ui-view></ui-view>
+</div>
+
+

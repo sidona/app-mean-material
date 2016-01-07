@@ -1,0 +1,10 @@
+<md-list class="ap-selectable-item">
+  <div class="ap-noselect">
+    <i class="fa {{icon}} ap-menu-icon"></i>
+    <a ui-sref-active="active" ui-sref="profile.about.{{route}}"> {{name}}</a>
+
+  <i ng-if="isActive()&& isVertical()"></i>
+  </div>
+</md-list>
+
+

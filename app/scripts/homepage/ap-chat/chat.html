@@ -1,0 +1,16 @@
+<div class="chat" ng-controller="chatCtrl">
+  <div class="header">
+  <button ng-click="showUser=!showUser">Turn on chat</button>
+  to see who's available
+
+  <div ng-show="showUser" ng-repeat="user in users" class="userChat" style="padding-bottom: 10px">
+    <span>
+       <img ng-src="{{user.image}}" style="width: 30px;height:30px">
+      <a ui-sref-active="active" ui-sref="chat" >{{user.name}}</a>
+    </span>
+
+  </div>
+
+  </div>
+  <div ng-hide="showUser"></div>
+</div>

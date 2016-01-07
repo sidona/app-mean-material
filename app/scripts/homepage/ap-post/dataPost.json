@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "angular",
+    "content": "HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.",
+    "image": "images/angular.jpg",
+    "author": "gigel",
+    "imageAuthor": "images/img1.jpg",
+    "comments": [
+      {
+        "id": 100,
+        "comment": "bla",
+        "userComment":"alina",
+        "imageUserComment":"images/img2.jpg"
+      },
+      {
+        "id": 101,
+        "comment": "bla101",
+        "userComment":"gigi",
+        "imageUserComment":"images/img2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "javascript",
+    "content": "HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.",
+    "image": "images/angular.jpg",
+    "author": "vasile",
+    "imageAuthor": "images/img2.jpg",
+    "comments": [
+      {
+        "id": 200,
+        "comment": "bla200",
+        "userComment":"alina",
+        "imageUserComment":"images/img1.jpg"
+      },
+      {
+        "id": 201,
+        "comment": "bla201",
+        "userComment":"alina",
+        "imageUserComment":"images/img1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "javascript",
+    "content": "HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.",
+    "image": "images/angular.jpg",
+    "author": "vasile",
+    "imageAuthor": "images/img1.jpg"
+  },
+  {
+    "id": 4,
+    "title": "tiger",
+    "content": "The tiger (Panthera tigris) is the largest cat species, reaching a total body length of up to 3.38 m (11.1 ft) over curves and exceptionally weighing up to 388.7 kg (857 lb) in the wild. Its most recognisable feature is a pattern of dark vertical stripes on reddish-orange fur with a lighter underside. The species is classified in the genus Panthera with the lion, leopard, jaguar and snow leopard. Tigers are apex predators, primarily preying on ungulates such as deer and bovids. They are territorial and generally solitary but social animals, often requiring large contiguous areas of habitat that support their prey requirements. This, coupled with the fact that they are indigenous to some of the more densely populated places on Earth, has caused significant conflicts with humans.",
+    "image": "images/tiger.jpg",
+    "author": "vasile",
+    "imageAuthor": "images/img2.jpg"
+  }
+]

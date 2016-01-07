@@ -1,0 +1,44 @@
+<div class="addPost" ng-controller="addPostCtrl">
+  <div class="header">
+
+    <a ui-sref="profile" style="color: black;text-align: left">
+      <span style="border-right: 1px solid #d6d6d6">
+        <div class="updateStatus"></div>UpdateStatus
+      </span>
+    </a>
+
+    <a ui-sref="profile">
+      <span style="margin-left: 12px;border-right: 1px solid #d6d6d6">
+      <div class="addPhoto"></div>Add Photo
+      </span>
+    </a>
+
+    <a ui-sref="profile">
+      <span style="margin-left: 12px">
+      <div class="createAlbum"></div>Create
+      </span>
+    </a>
+  </div>
+
+  <div style="margin-top: 15px; " >
+    <img src="images/frog.png" style="height: 40px;width: 40px;margin-left: 14px">
+      <textarea rows="4" cols="50" name="comment" ng-click="toggle=!toggle" style="border: none;border-color: transparent;color: grey">
+      What's on your mind?</textarea>
+
+  </div>
+
+  <div class="footer">
+    <div layout="row">
+      <div flex="50" ng-show="toggle">
+        <a ui-sref="profile" class="addPhoto-footer"></a>
+        <a ui-sref="profile" class="addTagPeople-footer"></a>
+        <a ui-sref="profile" class="addFeeling-footer"></a>
+        <a ui-sref="profile" class="addLocation-footer"></a>
+      </div>
+      <div flex="50">
+        <md-button class="md-raised">Friends</md-button>
+        <md-button class="md-raised md-primary">Post</md-button>
+      </div>
+    </div>
+  </div>
+</div>

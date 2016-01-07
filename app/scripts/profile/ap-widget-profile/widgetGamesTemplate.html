@@ -1,0 +1,25 @@
+<div class="games-widget">
+  <div class="games-heading">
+
+    <img class="games-icon">
+    <span class="games-title">game</span>
+  </div>
+  <div class="games-body" style="background-image: url({{selectedGame.image}});">
+    <div ng-if="!isLoaded && !hasError">
+      <i class="fa fa-refresh fa-2x fa-spin"></i>
+    </div>
+    <div ng-if="isLoaded " class="games-view">
+      <div class="games-name">
+        {{selectedGame.name}}
+      </div>
+      <div class="games-degrees">
+        {{selectedGame.ranking}}
+      </div>
+    </div>
+    <div ng-if="hasError">
+      <h4>error loading widget</h4>
+      <button ng-click="loadGame()">Reload</button>
+
+    </div>
+  </div>
+</div>

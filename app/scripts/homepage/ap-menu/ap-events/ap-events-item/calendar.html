@@ -1,0 +1,16 @@
+<div ng-controller="calendarCtrl" style="margin-top: 100px">
+
+  <calendar-md
+    flex layout layout-fill
+    calendar-direction="direction"
+    on-prev-month="prevMonth"
+    on-next-month="nextMonth"
+    on-day-click="dayClick"
+    title-format="'MMMM y'"
+    ng-model='selectedDate'
+    week-starts-on="firstDayOfWeek"
+    day-content="setDayContent"
+  </calendar-md>
+
+
+</div>

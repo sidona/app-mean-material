@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="bower_components/angular-gridster/dist/angular-gridster.min.css" />
+  <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <link rel="stylesheet" href="scripts/profile/ap-container-profile/ap-container.css">
+  <link rel="stylesheet" href="scripts/profile/ap-menu-profile/ap-profile.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="scripts/homepage/ap-post/ap-Post.css">
+  <link rel="stylesheet" href="scripts/homepage/ap-menu/apMenu.css">
+  <!--<link rel="stylesheet" href="styles/bootstrap.css">-->
+</head>
+<!--<body ng-app="appMeanApp" style=" background:url(images/image.jpg)">-->
+<body ng-app="appMeanApp" ng-controller="MainCtrl">
+
+<div class="header"  style="
+    background-size: auto;
+    background-position: 0 0;
+    background-color: #3a5795;
+    border: 0;
+    border-bottom: 1px solid #133783;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .52);
+    position: fixed;
+    width: 100%; z-index: 5;">
+
+        <div class="container">
+          <div class="content-container">
+
+            <a ui-sref="profile" class="_48pw" style="margin-top: 3px;">Facebook</a>
+
+            <form>
+              <div class="form-group" >
+                <div class="input-group" style="width: 400px;height: 15px;padding: 5px">
+                  <input type="text" class="form-control" placeholder="Search" ng-model="search">
+
+                  <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                </div>
+              </div>
+            </form>
+
+            <div class="icon-facebook">
+              <a ui-sref="profile" style="color: white;padding: 4px">profile</a>
+              <a ui-sref="post" style="color: white;padding: 4px">Home</a>
+              <a class="jewelButton" ui-sref="profile"></a>
+              <a class="messageButton" ui-sref=""></a>
+              <a class="notificationButton" ui-sref="post"></a>
+              <a class="privacyButton" ui-sref="post"></a>
+              <a class="navigationButton" ui-sref="post"></a>
+            </div>
+
+          </div>
+        </div>
+</div>
+
+<div class="container" ng-controller="MainCtrl">
+
+  <div ui-view></div>
+</div>
+
+<div class="footer">
+
+</div>
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<script>
+  !function (A, n, g, u, l, a, r) {
+    A.GoogleAnalyticsObject = l, A[l] = A[l] || function () {
+        (A[l].q = A[l].q || []).push(arguments)
+      }, A[l].l = +new Date, a = n.createElement(g),
+      r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+  }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-XXXXX-X');
+  ga('send', 'pageview');
+</script>
+
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/javascript-detect-element-resize/detect-element-resize.js"></script>
+<script src="bower_components/angular-gridster/src/angular-gridster.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="bower_components/ngstorage/ngStorage.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+<script src="bower_components/angular-aria/angular-aria.js"></script>
+<script src="bower_components/angular-material/angular-material.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/material-calendar/dist/angular-material-calendar.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+
+<script src="scripts/profile/ap-widget-profile/widgetModule.js"></script>
+<script src="scripts/profile/ap-container-profile/ap-container.js"></script>
+<script src="scripts/profile/ap-container-profile/ap-containerCtrl.js"></script>
+<script src="scripts/profile/ap-container-profile/ap-containerDirective.js"></script>
+
+<script src="scripts/profile/ap-menu-profile/ap-profileMenu.js"></script>
+<script src="scripts/profile/ap-menu-profile/ap-profileMenuCtrl.js"></script>
+<script src="scripts/profile/ap-menu-profile/ap-profileMenuDirective.js"></script>
+<script src="scripts/profile/ap-menu-profile/ap-menu-itemDirective.js"></script>
+
+<script src="scripts/homepage/ap-post/ap-Post.js"></script>
+
+<script src="scripts/homepage/ap-menu/apMenu.js"></script>
+<script src="scripts/homepage/ap-menu/apMenuCtrl.js"></script>
+<script src="scripts/homepage/ap-menu/ap-apps/appsCtrl.js"></script>
+
+<script src="scripts/homepage/ap-menu/ap-events/eventsCtrl.js"></script>
+<script src="scripts/homepage/ap-menu/ap-events/apMenuEventsCtrl.js"></script>
+<script src="scripts/homepage/ap-menu/ap-events/apMenuDirective.js"></script>
+<script src="scripts/homepage/ap-menu/ap-events/ap-events-item/ap-events-itemDirective.js"></script>
+<script src="scripts/homepage/ap-menu/ap-events/ap-events-item/calendarCtrl.js"></script>
+
+
+<script src="scripts/homepage/ap-post/postCtrl.js"></script>
+
+<!-- chat -->
+
+<script src="scripts/homepage/ap-chat/chat.js"></script>
+<script src="scripts/homepage/ap-chat/chatCtrl.js"></script>
+<script src="scripts/homepage/ap-chat/chatMessageCtrl.js"></script>
+
+<script src="scripts/homepage/ap-post/addPostCtrl.js"></script>
+
+
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/main.js"></script>
+
+
+<script src="scripts/homepage/ap-post/postCtrl.js"></script>
+<script src="scripts/homepage/ap-post/postDirective.js"></script>
+<script src="scripts/controllers/myprofile.js"></script>
+<script src="scripts/directives/myprofile.js"></script>
+<script src="scripts/controllers/dashboard.js"></script>
+<script src="scripts/services/dataservice.js"></script>
+<script src="scripts/profile/ap-widget-profile/widgetDirective.js"></script>
+<script src="scripts/profile/ap-widget-profile/widgetAddDirective.js"></script>
+<script src="scripts/profile/ap-widget-profile/widgetGamesDirective.js"></script>
+<script src="scripts/profile/ap-widget-profile/selectGameCtrl.js"></script>
+<script src="scripts/profile/ap-widget-profile/widgetBodyDirective.js"></script>
+
+
+
+<script src="scripts/profile/ap-menu-profile/informationCtrl.js"></script>
+<script src="scripts/profile/ap-menu-profile/familyCtrl.js"></script>
+<script src="scripts/profile/ap-menu-profile/studyCtrl.js"></script>
+
+<script src="scripts/controllers/profileFriends.js"></script>
+<!-- endbuild -->
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<div class="ap-title-bar">
+  <div layout="row">
+    <div class="ap-logo-area flex-50">
+      <img src="images/frog.png" style="width: 40px;height: 40px">
+      <div class="ap-title-area">
+        <p class="ap-logo-title">{{title}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ap-menu-area"
+     ng-class="{'ap-menu-area-vertical':isMenuVertical}">
+
+
+  <ng-transclude></ng-transclude>
+
+</div>
+
+
+
+<div ng-view class="ap-view">
+<ui-view></ui-view>
+</div>
